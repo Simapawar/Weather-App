@@ -5,7 +5,8 @@
 }
 
 body {
-    background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+    background-image: url('/weather.png');
+    background-size: cover;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ input {
     background-color: #fff;
     border: none;
     border-radius: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(19, 1, 1, 0.2);
     font-family: inherit;
     font-size: 1rem;
     padding: 1rem;
@@ -31,11 +32,15 @@ input:focus {
 }
 
 .weather {
+    font-weight: bold;
+    color: black;
     font-size: 2rem;
     text-align: center;
 }
 
 .weather h2 {
+    font-weight: bold;
+    color: black;
     display: flex;
     align-items: center;
     margin-bottom: 0;
